@@ -11,7 +11,7 @@ class TravelCreate(BaseModel):
 class TravelResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     id: int
-     name: str
+    name: str
     destination: str
     price: float
     people: int
